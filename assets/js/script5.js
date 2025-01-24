@@ -3,7 +3,7 @@ function validarResposta() {
     const respostaDigitada = document.getElementById("resposta").value;
 
     if (respostaDigitada.toLowerCase() === respostaCorreta.toLowerCase()) {
-        document.getElementById("resultado").innerText = "Parabéns! Dica desbloqueada: Acho legal olhar.";
+        document.getElementById("resultado").innerText = "Parabéns! Dica desbloqueada: Acho legal olhar no sofá.";
     } else {
         document.getElementById("resultado").innerText = "Resposta incorreta. Tente novamente.";
     }

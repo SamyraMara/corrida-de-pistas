@@ -1,5 +1,5 @@
 function validarResposta() {
-    const respostaCorreta = "Que as pessoas importantes estejam sempre com você em todas as temporadas da sua vida.";
+    const respostaCorreta = "Bem-vindo à temporada 19";
     const respostaDigitada = document.getElementById("resposta").value;
 
     if (respostaDigitada.toLowerCase() === respostaCorreta.toLowerCase()) {

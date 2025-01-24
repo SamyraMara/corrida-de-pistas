@@ -1,5 +1,5 @@
 function validarResposta() {
-    const respostaCorreta = ".--- ..- -. - --- ... / . -- / - --- -.. .- ... / .- ... / ..-. ..- - ..- .-. .- ... / - . -- .--. --- .-. .- -.. .- ...";
+    const respostaCorreta = "JUNTOS EM TODAS AS FUTURAS TEMPORADAS";
     const respostaDigitada = document.getElementById("resposta").value;
 
     if (respostaDigitada === respostaCorreta) {
